@@ -6,13 +6,8 @@ public class Main {
         // Match length is 3 minutes
         while (timer.timeElapsed <= 180) {
             /* Code here */
-            timer.update();
-        }
-        /** DELETE BELOW BEFORE FINISHING*/
-        // RUN ANALYZE FOR AUTO
-        DcMotor motor1 = new DcMotor();
+            timer.update(); // DO NOT REMOVE THIS LINE
+        }//end timer loop
 
-        motor1.setDirection(DcMotor.Direction.FORWARD);
-        System.out.println(motor1.getDirection());
-    }
-}
+    }//end main
+}//end class
