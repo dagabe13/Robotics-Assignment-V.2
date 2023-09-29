@@ -1,7 +1,7 @@
-/* DcMotor class
-* Simulator for FTC's DcMotor class.
-* Janky as hell, but gets the job done
-*/
+/** DcMotor class
+ * Simulator for FTC's DcMotor class.
+ * Janky as hell, but gets the job done
+ * */
 
 public class DcMotor {
 
@@ -17,9 +17,9 @@ public class DcMotor {
         REVERSE
     }
 
-    double power;
-    Direction direction;
-    RunMode runMode;
+    private double power;
+    private Direction direction;
+    private RunMode runMode;
 
 
     public DcMotor() {
@@ -28,6 +28,7 @@ public class DcMotor {
         this.runMode = null;
     }
 
+    /* power */
     void setPower(double input) {
         if (runMode == RunMode.RUN_USING_ENCODER) {
             if (direction == Direction.FORWARD) {
@@ -37,10 +38,9 @@ public class DcMotor {
             }
         }
     }
-    double getPower() {
-        return power;
-    }
+    double getPower() { return power; }
 
+    /* runMode */
     void setMode(RunMode input){
         switch (input) {
             case RUN_TO_POSITION:
@@ -57,9 +57,7 @@ public class DcMotor {
                 break;
         }
     }
-    RunMode getMode() {
-        return runMode;
-    }
+    RunMode getMode() { return runMode; }
 
     void setDirection(Direction input){
         switch (input) {
@@ -71,9 +69,7 @@ public class DcMotor {
                 break;
         }
     }
-    Direction getDirection() {
-        return direction;
-    }
+    Direction getDirection() { return direction; }
 
     public static void main(String[] args){
         // Init enums
