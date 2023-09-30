@@ -28,9 +28,7 @@ you're free to learn extra information for your own benefit!
 1. Fork this repository, creating a fork to your account.
 2. Clone your version of this repository to GitHub Desktop. If you don't have GitHub Desktop installed, you can use Git.
 3. Code in the Main.java file to complete the assignment.
-4. Once finished, go to the folder "Project Submits" in your forked repository.
-5. Create a folder with your full name and drag your Main.java into that folder. (or email to Scarlett acc)
-6. Create a pull request. You're done!
+4. Once finished, email your Main.java file to the Scarlett Robotics Email Account
 
 ## Assignment
 1. Do the Mario
