@@ -8,7 +8,7 @@ public class Auto {
     private int output;
     private int debugOutput;
 
-    public Auto(int output) { this.output = output; }
+    public Auto() {}
 
     /* This code actually just sets output to a random number from 1-3
      * too lazy to make actual auto also hard to do it */
