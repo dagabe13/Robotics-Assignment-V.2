@@ -4,7 +4,7 @@ public class Main {
         /* Initialization here */
 
         // Match length is 3 minutes
-        while (timer.timeElapsed <= 180) {
+        while (timer.opModeIsActive) {
             /* Code here */
             timer.update(); // DO NOT REMOVE THIS LINE
         }//end timer loop
