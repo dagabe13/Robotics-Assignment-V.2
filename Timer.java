@@ -3,7 +3,7 @@
  * Every iteration runs through the */
 
 public class Timer {
-    int timeElapsed;
+    public int timeElapsed;
     Timer() {
         timeElapsed = 0;
     }
