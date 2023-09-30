@@ -28,7 +28,7 @@ public class DcMotor {
         this.runMode = null;
     }
 
-    /* power */
+    /* Sets the power level of the motor, expressed as a fraction of the maximum possible power / speed supported according to the run mode in which the motor is operating. */
     void setPower(double input) {
         if (runMode == RunMode.RUN_USING_ENCODER) {
             if (direction == Direction.FORWARD) {
@@ -38,9 +38,10 @@ public class DcMotor {
             }
         }
     }
+    /* Returns the current configured power level of the motor. */
     double getPower() { return power; }
 
-    /* runMode */
+    /* Sets the current run mode for this motor */
     void setMode(RunMode input){
         switch (input) {
             case RUN_TO_POSITION:
@@ -57,8 +58,10 @@ public class DcMotor {
                 break;
         }
     }
+    /* Returns the current run mode for this motor */
     RunMode getMode() { return runMode; }
 
+    /* Sets the logical direction in which this motor operates. */
     void setDirection(Direction input){
         switch (input) {
             case FORWARD:
@@ -69,6 +72,7 @@ public class DcMotor {
                 break;
         }
     }
+    /* Returns the current logical direction in which this motor is set as operating. */
     Direction getDirection() { return direction; }
 
     public static void main(String[] args){
