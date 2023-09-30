@@ -1,10 +1,4 @@
 # Robotics-Assignment-V.2
-
-This is the Robotics Intro Assignment for newcomers to complete
-
-This is the Wobotics Intwo Assignment fow nyewcomews to c-compwete
-
-## About
 This repository checks your introductory Java code knowledge. 
 If you're an aspiring member of the Scarlett Robotics code subteam,
     you're in the right place!
