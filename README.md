@@ -60,7 +60,7 @@ Take different actions depending on what Auto returns.
       1. Set both motor powers to 1 for 2 seconds
       2. Set "motorLeft" power to 1 and "motorRight" power to -1 for 1 second
       3. Set both motor powers to 0.5 for 2 seconds
-10. Time for the driver-controlled period! This period will last from 30 seconds to 150 seconds.
+10. Time for the driver-controlled period! This period will last from 30 seconds to 180 seconds.
 Our driver Stickman Bob has very specific driving requirements.
     1. "motorRight's" direction needs to be reversed for this period.
     Using "setDirection()", set "motorRight's" direction back to "FORWARD".
